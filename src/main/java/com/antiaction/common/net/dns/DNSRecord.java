@@ -1,6 +1,6 @@
 /*
  * DNS Record container, contains a header object and a data object.
- * Copyright (C) 2000, 2001  Nicholas Clarke
+ * Copyright (C) 2000, 2001, 2005  Nicholas Clarke
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -25,6 +25,7 @@
  * 25-Aug-2001 : Added debug method.
  *             : Javadoc.
  * 09-Oct-2001 : Cloneable.
+ * 04-Mar-2005 : Fixed javadoc.
  *
  */
 
@@ -68,7 +69,7 @@ public class DNSRecord implements Cloneable {
 
 	/**
 	 * Toggle debug status.
-	 * @param b boolean.
+	 * @param debug debug boolean.
 	 */
 	public void setDebug(boolean debug) {
 		dnsrecordheader.setDebug(debug);

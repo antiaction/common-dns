@@ -1,6 +1,6 @@
 /*
  * DNS header container, contains the header portion of a DNS message.
- * Copyright (C) 2000, 2001  Nicholas Clarke
+ * Copyright (C) 2000, 2001, 2005  Nicholas Clarke
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -33,6 +33,7 @@
  * 06-Oct-2001 : Minor renames.
  * 09-Oct-2001 : Cloneable.
  * 18-Nov-2001 : Javadoc fix.
+ * 04-Mar-2005 : Fixed javadoc.
  *
  */
 
@@ -343,7 +344,7 @@ public class DNSHeader implements Cloneable {
 
 	/**
 	 * Set Truncation flag.
-	 * @param aa boolean.
+	 * @param tc boolean.
 	 */
 	public void setTrunCation(boolean tc) {
 		trunCation = tc;
@@ -359,7 +360,7 @@ public class DNSHeader implements Cloneable {
 
 	/**
 	 * Set Recursion Desired flag.
-	 * @param aa boolean.
+	 * @param rd boolean.
 	 */
 	public void setRecursionDesired(boolean rd) {
 		recursionDesired = rd;
@@ -375,7 +376,7 @@ public class DNSHeader implements Cloneable {
 
 	/**
 	 * Set Recursion Available flag.
-	 * @param aa boolean.
+	 * @param ra boolean.
 	 */
 	public void setRecursionAvailable(boolean ra) {
 		recursionAvailable = ra;

@@ -1,6 +1,6 @@
 /*
  * DNS Message, main entry point for dis/assembling DNS packets.
- * Copyright (C) 2000, 2001  Nicholas Clarke
+ * Copyright (C) 2000, 2001, 2005  Nicholas Clarke
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -42,6 +42,7 @@
  * 10-Oct-2001 : Recoded getQuestions, merged the two versions into one, and it now clones the objects.
  * 10-Oct-2001 : Recoded getRecords, merged the two versions into one, and it now clones the objects.
  * 18-Nov-2001 : Javadoc fix.
+ * 04-Mar-2005 : Fixed javadoc.
  *
  */
 
@@ -569,7 +570,7 @@ public class DNSMessage {
 	/**
 	 * Get a copy of the Record objects that match the given arguments.
 	 * @param qname Question hostname. (* equals all hostnames)
-	 * @param rtype Section Type
+	 * @param stype Section Type
 	 * @param qtype Query Type.
 	 * @param qclass Query Class.
 	 * @return a list of Record objects.
