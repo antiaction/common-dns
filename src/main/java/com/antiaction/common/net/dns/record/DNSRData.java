@@ -30,12 +30,12 @@
  *
  */
 
-package com.antiaction.dns.record;
+package com.antiaction.common.net.dns.record;
 
-import com.antiaction.dns.DNSRecordHeader;
-import com.antiaction.dns.DNSType;
-import com.antiaction.dns.DNSName;
-import com.antiaction.dns.DNSNameException;
+import com.antiaction.common.net.dns.DNSRecordHeader;
+import com.antiaction.common.net.dns.DNSType;
+import com.antiaction.common.net.dns.DNSName;
+import com.antiaction.common.net.dns.DNSNameException;
 
 /**
  * DNS RData, main entry point for disassembling record data according to type.

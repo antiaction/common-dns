@@ -36,10 +36,10 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
-import com.antiaction.dns.DNSQType;
-import com.antiaction.dns.DNSQClass;
+import com.antiaction.common.net.dns.DNSQType;
+import com.antiaction.common.net.dns.DNSQClass;
 
 /**
  * DNS Question, dis/assembles question portions of a DNS packet.
@@ -215,8 +215,8 @@ public class DNSQuestion implements Cloneable {
 	/**
 	 * Set the question type.
 	 * @param qt question type.
-	 * @see com.antiaction.dns.DNSType
-	 * @see com.antiaction.dns.DNSQType
+	 * @see com.antiaction.common.net.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSQType
 	 */
 	public void setQType(int qt) {
 		qtype = qt;
@@ -225,8 +225,8 @@ public class DNSQuestion implements Cloneable {
 	/**
 	 * Get the question type.
 	 * @return question type.
-	 * @see com.antiaction.dns.DNSType
-	 * @see com.antiaction.dns.DNSQType
+	 * @see com.antiaction.common.net.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSQType
 	 */
 	public int getQType() {
 		return qtype;
@@ -235,8 +235,8 @@ public class DNSQuestion implements Cloneable {
 	/**
 	 * Set the question class.
 	 * @param qc question class.
-	 * @see com.antiaction.dns.DNSClass
-	 * @see com.antiaction.dns.DNSQClass
+	 * @see com.antiaction.common.net.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSQClass
 	 */
 	public void setQClass(int qc) {
 		qclass = qc;
@@ -245,8 +245,8 @@ public class DNSQuestion implements Cloneable {
 	/**
 	 * Get the question class
 	 * @return question class.
-	 * @see com.antiaction.dns.DNSClass
-	 * @see com.antiaction.dns.DNSQClass
+	 * @see com.antiaction.common.net.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSQClass
 	 */
 	public int getQClass() {
 		return qclass;

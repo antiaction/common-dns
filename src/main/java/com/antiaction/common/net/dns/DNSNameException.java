@@ -26,7 +26,7 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
 /**
  * DNS domainname exception, in case of corrupt domainname data.

@@ -28,7 +28,7 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
 /**
  * DNS Opcode, defines the various opcode constants.

@@ -35,11 +35,11 @@
  *
  */
 
-package com.antiaction.dns.record;
+package com.antiaction.common.net.dns.record;
 
-import com.antiaction.dns.DNSType;
-import com.antiaction.dns.DNSName;
-import com.antiaction.dns.DNSNameException;
+import com.antiaction.common.net.dns.DNSType;
+import com.antiaction.common.net.dns.DNSName;
+import com.antiaction.common.net.dns.DNSNameException;
 
 import java.util.ArrayList;
 
@@ -195,7 +195,7 @@ public class DNSRDataA implements DNSRDataInterface {
 	/**
 	 * Get the record type.
 	 * @return record type.
-	 * @see com.antiaction.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSType
 	 */
 	public int getRType() {
 		return rtype;

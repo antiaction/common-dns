@@ -25,7 +25,7 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
 /**
  * DNS QClass, defines the various qclass constants.

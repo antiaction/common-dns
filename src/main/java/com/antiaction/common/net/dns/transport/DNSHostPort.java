@@ -27,7 +27,7 @@
  *
  */
 
-package com.antiaction.dns.transport;
+package com.antiaction.common.net.dns.transport;
 
 /**
  * DNS transport host container, contains hostname/port information.

@@ -36,10 +36,10 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
-import com.antiaction.dns.DNSOpcode;
-import com.antiaction.dns.DNSResponseCode;
+import com.antiaction.common.net.dns.DNSOpcode;
+import com.antiaction.common.net.dns.DNSResponseCode;
 
 /**
  * DNS header container, contains the header portion of a DNS message.

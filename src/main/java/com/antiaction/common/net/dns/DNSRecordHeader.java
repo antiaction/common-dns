@@ -38,10 +38,10 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
-import com.antiaction.dns.DNSType;
-import com.antiaction.dns.DNSClass;
+import com.antiaction.common.net.dns.DNSType;
+import com.antiaction.common.net.dns.DNSClass;
 
 /**
  * DNS Record Header, contains the header portion of a resource record.
@@ -235,7 +235,7 @@ public class DNSRecordHeader implements Cloneable {
 	/**
 	 * Set the record type.
 	 * @param rt record type.
-	 * @see com.antiaction.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSType
 	 */
 	public void setRType(int rt) {
 		rtype = rt;
@@ -244,7 +244,7 @@ public class DNSRecordHeader implements Cloneable {
 	/**
 	 * Get the record type.
 	 * @return record type.
-	 * @see com.antiaction.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSType
 	 */
 	public int getRType() {
 		return rtype;
@@ -253,7 +253,7 @@ public class DNSRecordHeader implements Cloneable {
 	/**
 	 * Set the record class.
 	 * @param rc record class.
-	 * @see com.antiaction.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSClass
 	 */
 	public void setRClass(int rc) {
 		rclass = rc;
@@ -262,7 +262,7 @@ public class DNSRecordHeader implements Cloneable {
 	/**
 	 * Get the record class.
 	 * @return record class.
-	 * @see com.antiaction.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSClass
 	 */
 	public int getRClass() {
 		return rclass;

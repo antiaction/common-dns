@@ -30,10 +30,10 @@
  *
  */
 
-package com.antiaction.dns.record;
+package com.antiaction.common.net.dns.record;
 
-import com.antiaction.dns.DNSName;
-import com.antiaction.dns.DNSNameException;
+import com.antiaction.common.net.dns.DNSName;
+import com.antiaction.common.net.dns.DNSNameException;
 
 /**
  * DNS RData interface, abstract class each record data class must implemented.
@@ -88,7 +88,7 @@ public interface DNSRDataInterface extends Cloneable {
 	/**
 	 * Get the record type.
 	 * @return record type.
-	 * @see com.antiaction.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSType
 	 */
 	public int getRType();
 

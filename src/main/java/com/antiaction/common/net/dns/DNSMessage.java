@@ -45,11 +45,11 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
-import com.antiaction.dns.record.DNSRDataInterface;
-import com.antiaction.dns.record.DNSRData;
-import com.antiaction.dns.record.DNSRDataException;
+import com.antiaction.common.net.dns.record.DNSRDataInterface;
+import com.antiaction.common.net.dns.record.DNSRData;
+import com.antiaction.common.net.dns.record.DNSRDataException;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -540,10 +540,10 @@ public class DNSMessage {
 	 * @param qtype Query Type.
 	 * @param qclass Query Class.
 	 * @return a list of Question objects.
-	 * @see com.antiaction.dns.DNSType
-	 * @see com.antiaction.dns.DNSQType
-	 * @see com.antiaction.dns.DNSClass
-	 * @see com.antiaction.dns.DNSQClass
+	 * @see com.antiaction.common.net.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSQType
+	 * @see com.antiaction.common.net.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSQClass
 	 */
 	public ArrayList getQuestions(String qname, int qtype, int qclass) {
 		ArrayList tmpArr = new ArrayList();
@@ -573,11 +573,11 @@ public class DNSMessage {
 	 * @param qtype Query Type.
 	 * @param qclass Query Class.
 	 * @return a list of Record objects.
-	 * @see com.antiaction.dns.DNSSectionType
-	 * @see com.antiaction.dns.DNSType
-	 * @see com.antiaction.dns.DNSQType
-	 * @see com.antiaction.dns.DNSClass
-	 * @see com.antiaction.dns.DNSQClass
+	 * @see com.antiaction.common.net.dns.DNSSectionType
+	 * @see com.antiaction.common.net.dns.DNSType
+	 * @see com.antiaction.common.net.dns.DNSQType
+	 * @see com.antiaction.common.net.dns.DNSClass
+	 * @see com.antiaction.common.net.dns.DNSQClass
 	 */
 	public ArrayList getRecords(String qname, int stype, int qtype, int qclass) {
 		ArrayList tmpArr = new ArrayList();

@@ -27,7 +27,7 @@
  *
  */
 
-package com.antiaction.dns;
+package com.antiaction.common.net.dns;
 
 /**
  * DNS Response Code, defines various response constants.
