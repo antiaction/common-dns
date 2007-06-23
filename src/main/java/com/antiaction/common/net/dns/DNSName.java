@@ -99,13 +99,13 @@ public class DNSName {
 	public byte[] buildPacket(int globalIdx, String name, boolean useComp, boolean updComp) throws DNSNameException {
 		byte[] packetData;
 		int packetLen;
-		int packetIdx;
+		//int packetIdx;
 
 		ArrayList labels;
 		StringBuffer label;
 
 		String tmpStr;
-		int pidx;
+		//int pidx;
 		int idx;
 		int len;
 		char c;

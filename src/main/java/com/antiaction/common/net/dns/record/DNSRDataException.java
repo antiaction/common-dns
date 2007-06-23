@@ -36,6 +36,11 @@ package com.antiaction.common.net.dns.record;
 public class DNSRDataException extends java.lang.Exception {
 
 	/**
+	 * UID.
+	 */
+	private static final long serialVersionUID = 4584022870093422278L;
+
+	/**
 	 * Overriding constructor.
 	 * @param text error message.
 	 */

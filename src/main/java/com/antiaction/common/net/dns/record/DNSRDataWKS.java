@@ -364,7 +364,6 @@ public class DNSRDataWKS implements DNSRDataInterface {
 	 */
 	public static ArrayList Split(String str, String dstr) {
 		ArrayList tmpArr = null;
-		String tmpStr = null;
 		int prevIndex = 0;
 		int currIndex = 0;
 		if ( (str == null) || (dstr == null) ) {
