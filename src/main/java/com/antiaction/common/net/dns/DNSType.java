@@ -25,7 +25,7 @@
  * 15-Jul-2001 : Refactoring/Javadoc.
  *             : Renamed.
  * 11-Aug-2001 : Added generic type.
- * 08-Oct-2001 : Moved QType constants to seperate class.
+ * 08-Oct-2001 : Moved QType constants to separate class.
  *
  */
 

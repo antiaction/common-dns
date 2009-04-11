@@ -21,7 +21,7 @@
 /*
  * History:
  *
- * 08-Oct-2001 : QType constants moved to this seperate class.
+ * 08-Oct-2001 : QType constants moved to this separate class.
  *
  */
 

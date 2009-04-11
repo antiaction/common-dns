@@ -21,7 +21,7 @@
 /*
  * History:
  *
- * 07-Oct-2001 : QClass constants moved to this seperate class.
+ * 07-Oct-2001 : QClass constants moved to this separate class.
  *
  */
 

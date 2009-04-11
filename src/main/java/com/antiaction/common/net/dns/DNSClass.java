@@ -24,7 +24,7 @@
  * 10-May-2000 : Previous version.
  * 15-Jul-2001 : Refactoring/Javadoc.
  *             : Renamed.
- * 07-Oct-2001 : Moved QClass constants to seperate class.
+ * 07-Oct-2001 : Moved QClass constants to separate class.
  *
  */
 
