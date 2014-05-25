@@ -29,9 +29,9 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
-import com.antiaction.common.net.dns.record.DNSRDataInterface;
+import com.antiaction.common.dns.record.DNSRDataInterface;
 
 /**
  * DNS Record container, contains a header object and a data object.

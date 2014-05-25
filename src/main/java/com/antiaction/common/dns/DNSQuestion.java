@@ -36,10 +36,7 @@
  *
  */
 
-package com.antiaction.common.net.dns;
-
-import com.antiaction.common.net.dns.DNSQType;
-import com.antiaction.common.net.dns.DNSQClass;
+package com.antiaction.common.dns;
 
 /**
  * DNS Question, dis/assembles question portions of a DNS packet.

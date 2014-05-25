@@ -27,7 +27,7 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
 /**
  * DNS Section Type, defines types used to retrieve records stored by their type.

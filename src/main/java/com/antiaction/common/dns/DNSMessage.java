@@ -46,14 +46,14 @@
  *
  */
 
-package com.antiaction.common.net.dns;
-
-import com.antiaction.common.net.dns.record.DNSRDataInterface;
-import com.antiaction.common.net.dns.record.DNSRData;
-import com.antiaction.common.net.dns.record.DNSRDataException;
+package com.antiaction.common.dns;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+
+import com.antiaction.common.dns.record.DNSRData;
+import com.antiaction.common.dns.record.DNSRDataException;
+import com.antiaction.common.dns.record.DNSRDataInterface;
 
 /**
  * DNS Message, main entry point for dis/assembling DNS packets.

@@ -40,9 +40,8 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
-import com.antiaction.common.net.dns.DNSNameException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;

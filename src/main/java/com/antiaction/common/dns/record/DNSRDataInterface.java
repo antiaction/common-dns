@@ -30,10 +30,10 @@
  *
  */
 
-package com.antiaction.common.net.dns.record;
+package com.antiaction.common.dns.record;
 
-import com.antiaction.common.net.dns.DNSName;
-import com.antiaction.common.net.dns.DNSNameException;
+import com.antiaction.common.dns.DNSName;
+import com.antiaction.common.dns.DNSNameException;
 
 /**
  * DNS RData interface, abstract class each record data class must implemented.

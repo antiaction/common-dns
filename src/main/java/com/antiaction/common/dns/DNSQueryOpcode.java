@@ -27,7 +27,7 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
 /**
  * DNS Query Opcode, defines the various query constants.

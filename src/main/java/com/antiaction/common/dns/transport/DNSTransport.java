@@ -30,7 +30,7 @@
  *
  */
 
-package com.antiaction.common.net.dns.transport;
+package com.antiaction.common.dns.transport;
 
 /**
  * DNS message transport interface, abstract class for DNS packet transports.

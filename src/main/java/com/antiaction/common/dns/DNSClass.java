@@ -28,7 +28,7 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
 /**
  * DNS Class, defines the various DNS Network domains.

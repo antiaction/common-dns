@@ -31,7 +31,7 @@
  *
  */
 
-package com.antiaction.common.net.dns.transport;
+package com.antiaction.common.dns.transport;
 
 import java.util.NoSuchElementException;
 

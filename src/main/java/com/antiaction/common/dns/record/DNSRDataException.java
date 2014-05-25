@@ -25,7 +25,7 @@
  *
  */
 
-package com.antiaction.common.net.dns.record;
+package com.antiaction.common.dns.record;
 
 /**
  * DNS RData exception, in case of corrupt record data.

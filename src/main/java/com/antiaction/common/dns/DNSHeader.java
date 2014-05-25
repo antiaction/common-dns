@@ -37,10 +37,8 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
-import com.antiaction.common.net.dns.DNSOpcode;
-import com.antiaction.common.net.dns.DNSResponseCode;
 
 /**
  * DNS header container, contains the header portion of a DNS message.

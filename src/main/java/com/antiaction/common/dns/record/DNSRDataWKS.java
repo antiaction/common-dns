@@ -34,14 +34,14 @@
  *
  */
 
-package com.antiaction.common.net.dns.record;
-
-import com.antiaction.common.net.dns.DNSType;
-import com.antiaction.common.net.dns.DNSName;
-import com.antiaction.common.net.dns.DNSNameException;
+package com.antiaction.common.dns.record;
 
 import java.util.ArrayList;
 import java.util.BitSet;
+
+import com.antiaction.common.dns.DNSName;
+import com.antiaction.common.dns.DNSNameException;
+import com.antiaction.common.dns.DNSType;
 
 /**
  * DNS WKS Record container.

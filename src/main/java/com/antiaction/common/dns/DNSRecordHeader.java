@@ -38,10 +38,8 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
-import com.antiaction.common.net.dns.DNSType;
-import com.antiaction.common.net.dns.DNSClass;
 
 /**
  * DNS Record Header, contains the header portion of a resource record.

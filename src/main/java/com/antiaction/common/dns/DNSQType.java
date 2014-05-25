@@ -25,7 +25,7 @@
  *
  */
 
-package com.antiaction.common.net.dns;
+package com.antiaction.common.dns;
 
 /**
  * DNS QType constants, defines the various qtype constants.
